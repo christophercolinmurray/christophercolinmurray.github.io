@@ -1,1 +1,170 @@
+<!doctype html>
 
+<html lang="en">
+	<head>
+	<meta name="Author" content="Christopher Murray">
+	<meta name="keywords" content="JavaScript,html,css,js,programming,web development, web dev, software dev">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway|Roboto|Roboto+Condensed|Roboto+Slab|Roboto+Mono" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+	<title>Web Development: Front End Basics</title>
+	</head>
+
+<body>
+<a href="css.html">link</a>
+<h1>Web Development:<br>Front End Basics</h1>
+
+<h3 class="p">Who is this guide for?</h3>
+
+	<p>
+		Internet technology is constantly evolving. If you are interested in web design, this overview might be a good starting point. Perhaps you've built a simple project website or utilized online tools like WordPress, but want to know more about creating and editing, or using your own code. This guide will introduce you to some key web technologies including HTML, CSS, and JavaScript. 
+	</p>
+	<img alt="design mockup" class="graphic" src="img/mockup.jpg">
+<!-- HTML SECTION -->
+
+<h3>HTML</h3>
+	<p>
+		HTML is the foundation of a webpage. It is the base layer of information that dictates how content is displayed and how the user can interact with that content. Below is an example of the HTML tags being used to organize this element.
+	</p>
+
+<div class="code">
+<!-- &lt;='<' &gt='>' -->
+&lt;h3&gt;HTML&lt;/h3&gt;<br>
+<br>&lt;p&gt;<br>HTML is the foundation of a webpage. It is the base layer of information that dictates how content is displayed and how the user can interact with that content. Below is an example of the HTML tags being used to organize this element.<br>&lt;/p&gt;
+</div>
+
+<p>
+	HTML is a relatively simple language to learn. In the example above you see the tags create a new heading text and a paragraph. Using HTML, you can create simple websites that have text, images, and hyperlinks to internal pages or external sites. There are so many great resources on the web for learning HTML. My favorite is one that I've been using since 1998, HTML Goodies.
+	<br><br>Check them out here: <a href="https://www.htmlgoodies.com/">https://www.htmlgoodies.com/</a>
+ </p>
+	<img alt="Girl demonstrating responsive design at computer" class="graphic" src="img/girlcomputer.jpg">
+<!-- CSS  SECTION-->
+
+<h3>CSS</h3>
+<p>
+Cascading Style Sheets (CSS), as the name suggests, are used to add style to a web page. If HTML represents the structure of a home, then CSS is like the paint and decor the owner uses to create a mood or provide functionality. CSS can be used to create a lot of interesting effects. It allows designers to express more creativity and make web browsing more enjoyable. CSS also allows for responsive design techniques that bridge the gap between the mobile and desktop experience. Things like web fonts have also helped to make the internet more consistent across different devices.</p> 
+
+<p>In fact, all the fonts on this website will be displayed as Google Web Fonts where available. These fonts are supported by all modern web browsers and created by importing a stylesheet. That means it's no longer necessary to have a specific font installed on your OS to see it rendered. Below you will see some web fonts displayed with fun color effects. This is best viewed on a desktop. The functionality is limited from a smart phone because it uses the hover command to change colors when your cursor moves over the element.
+</p>
+
+<div class="code1">
+<div class="a">Open Sans</div>
+<div class="b">Roboto Condensed</div>
+<div class="c">Merriweather</div>
+<div class="d">Roboto Slab</div>
+<div class="e">Raleway</div>
+</div>
+<br><br>
+<div class="code">
+HTML SOURCE:
+<br>
+<br>&lt;div class="a"&gt;Open Sans&lt;/div&gt;
+<br>&lt;div class="b"&gt;Roboto Condensed&lt;/div&gt;
+<br>&lt;div class="c"&gt;Merriweather&lt;/div&gt;
+<br>&lt;div class="d"&gt;Roboto Slab&lt;/div&gt;
+<br>&lt;div class="e"&gt;Raleway&lt;/div&gt;
+<br><br><br>
+CSS SOURCE:<br>
+.a { <br>
+  background: rgb(50,0,50);   <br>
+  font-family: 'Open Sans', sans-serif; <br>
+  color: rgb(250,100,100); <br>
+  font-size: 1.5em;}<br>
+<br>
+.a:hover { <br>
+  background: rgb(70,20,70); <br>
+  font-family: 'Open Sans', sans-serif; <br>
+  color: rgb(250,100,100); <br>
+  font-size: 1.5em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+<br>
+.b {  <br>
+  background: rgb(90,0,50); <br>
+  font-family: 'Roboto Condensed', sans-serif; <br>
+  color: rgb(250,75,75); <br>
+  font-size: 2em;}<br><br>
+.b:hover {  <br>
+  background: rgb(110,20,70); <br>
+  font-family: 'Roboto Condensed', sans-serif; <br>
+  color: rgb(250,75,75); <br>
+  font-size: 2em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+
+<br>.c {  <br>
+  background: rgb(120,0,50); <br>
+  font-family: 'Merriweather', serif; <br>
+  color: rgb(250,50,50); <br>
+  font-size: 3em;}<br><br>
+.c:hover {  <br>
+  background: rgb(120,0,50); <br>
+  font-family: 'Merriweather', serif; <br>
+  color: rgb(255,120,120); <br>
+  font-size: 3em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+
+<br>.d { <br>
+  background: rgb(200,0,50);<br>
+  font-family: 'Roboto Slab', serif; <br>
+  color: rgb(250,45,25); <br>
+  font-size: 2em;}<br><br>
+.d:hover { <br>
+  background: rgb(180,0,30);<br>
+  font-family: 'Roboto Slab', serif; <br>
+  color: rgb(250,25,25); <br>
+  font-size: 2em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+
+<br>.e {  <br>
+  background: rgb(255,0,50);<br>
+   font-family: 'Raleway', sans-serif; <br>
+  color: rgb(100,0,0); <br>
+  font-size: 3em;}<br><br>
+.e:hover {  <br>
+  background: rgb(255,0,50);<br>
+   font-family: 'Raleway', sans-serif; <br>
+  color: rgb(120,0,50); <br>
+  font-size: 3em;<br>
+  font-variant-caps: all-small-caps;<br>
+  }    <br>
+<br>
+		</div>
+		<p>Each segment is similar. I've given each a name, a background color, and text color. Style effects are used to import the web fonts and set their size. The font changes to Small Caps when hovered over as well.</p>
+<!-- JAVASCRIPT -->
+<br>
+<br>
+<h3>JAVASCRIPT</h3>
+<p>
+	JavaScript is the programming language of the web. To continue our building analogy, JavaScript is like the electricity and water flowing throughout your home. The languages applications are extremely varied from implementing interactive website features to tracking consumer behavior. Scripts can also be malicious and exploit security vulnerabilities. 
+</p>
+<p>Click the buttons below to change the modified image to the standard JS icon. You can view the code snippet below to see what is happening. </p>
+
+<script></script>				
+<br><img alt="js logo" class="graphic size" id="switch" src="img/js1.jpg"><br>
+
+<div class="code">
+&lt;script&gt;&lt;/script&gt;				
+<br>&lt;img alt="js logo" class="graphic size" id="switch" src="img/js1.jpg"&gt;<br>
+&lt;button onclick="document.getElementById('switch').src='img/js.jpg'"&gt;On&lt;/button&gt;
+</div>		
+<br><br>			
+<button onclick="document.getElementById('switch').src='img/js.jpg'">On</button>
+<button onclick="document.getElementById('switch').src='img/js1.jpg'">Off</button><br><br>
+
+<!-- CONCLUSION -->
+<h3>Conclusion</h3>
+	<p>I hope this brief tutorial has enhanced your understanding of how websites are created. This is only a surface level introduction to front end technologies used in web development.</p>
+	<p>
+	I will be working on more tutorials for the future, find out more about Front End vs Back End here:
+	<a href="https://www.pluralsight.com/blog/film-games/whats-difference-front-end-back-end">https://www.pluralsight.com/blog/film-games/whats-difference-front-end-back-end</a></p>
+	<p>
+	In the meantime, if you have any questions for me, please send me an email at: <a href="mailto:cmurray21@student.clayton.edu">cmurray21@student.clayton.edu</a>
+	</p>
+
+	<p>I hope this brief tutorial has enhanced your understanding of how websites are created. This is only a surface level introduction to front end technologies used in web development. </p>
+</body>
+</html>

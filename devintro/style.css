@@ -1,0 +1,292 @@
+body {
+    background-image :linear-gradient(#ffffff,#c9c9c9);
+    font-family: 'Roboto Condensed';
+    font-size: 1.5em;
+    padding: 0% 10% 10% 10%; 
+}
+
+h1 {
+      font-family: 'Roboto Mono';
+      color: rgb(45,110,255);
+      font-size:2em;
+      max-width: 100%;
+    }
+
+h3 {
+    font-family: 'Roboto Condensed';
+  }
+p {
+   font-size:1em;
+}
+
+.graphic {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.code {
+  background: rgba(20,20,20,.9); 
+  border-top-style: solid; 
+  border-top-width: 20px;
+  border-top-color: rgb(225,225,225);
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,225); font-size: .6em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+button {
+  background: rgba(20,20,20,.75); 
+  border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,225); font-size: 3em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+button:hover {
+  background: rgba(20,20,20,.9); 
+  border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,0); font-size: 3em;
+  box-shadow:  1px 5px 10px #000000;
+}
+
+button:active {
+  background: rgba(20,20,20,.9); 
+    border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,0); font-size: 3em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+.code1 {
+  background: rgba(20,20,20,.9); 
+  border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,225); font-size: .6em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+.size {
+  max-width: 500px;
+  height:auto
+}
+.a { 
+  background: rgb(50,0,50);   
+  font-family: 'Open Sans', sans-serif; 
+  color: rgb(250,100,100); 
+  font-size: 1.5em;}
+
+.a:hover { 
+  background: rgb(70,20,70); 
+  font-family: 'Open Sans', sans-serif; 
+  color: rgb(250,100,100); 
+  font-size: 1.5em;
+  font-variant-caps: all-small-caps;
+}
+
+.b {  
+  background: rgb(90,0,50); 
+  font-family: 'Roboto Condensed', sans-serif; 
+  color: rgb(250,75,75); 
+  font-size: 2em;}
+.b:hover {  
+  background: rgb(110,20,70); 
+  font-family: 'Roboto Condensed', sans-serif; 
+  color: rgb(250,75,75); 
+  font-size: 2em;
+  font-variant-caps: all-small-caps;
+}
+
+.c {  
+  background: rgb(120,0,50); 
+  font-family: 'Merriweather', serif; 
+  color: rgb(250,50,50); 
+  font-size: 3em;}
+.c:hover {  
+  background: rgb(120,0,50); 
+  font-family: 'Merriweather', serif; 
+  color: rgb(255,120,120); 
+  font-size: 3em;
+  font-variant-caps: all-small-caps;
+}
+
+.d { 
+  background: rgb(200,0,50);
+  font-family: 'Roboto Slab', serif; 
+  color: rgb(250,45,25); 
+  font-size: 2em;}
+.d:hover { 
+  background: rgb(180,0,30);
+  font-family: 'Roboto Slab', serif; 
+  color: rgb(250,25,25); 
+  font-size: 2em;
+  font-variant-caps: all-small-caps;
+}
+
+.e {  
+  background: rgb(255,0,50);
+   font-family: 'Raleway', sans-serif; 
+  color: rgb(100,0,0); 
+  font-size: 3em;}
+.e:hover {  
+  background: rgb(255,0,50);
+   font-family: 'Raleway', sans-serif; 
+  color: rgb(120,0,50); 
+  font-size: 3em;
+  font-variant-caps: all-small-caps;
+  }    
+   
+
+
+
+    
+=======
+
+
+body {
+    background-image :linear-gradient(#ffffff,#c9c9c9);
+    font-family: 'Roboto Condensed';
+    font-size: 1.5em;
+    padding: 0% 10% 10% 10%; 
+}
+
+h1 {
+      font-family: 'Roboto Mono';
+      color: rgb(45,110,255);
+      font-size:2em;
+      max-width: 100%;
+    }
+
+h3 {
+    font-family: 'Roboto Condensed';
+  }
+p {
+   font-size:1em;
+}
+
+.graphic {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.code {
+  background: rgba(20,20,20,.9); 
+  border-top-style: solid; 
+  border-top-width: 20px;
+  border-top-color: rgb(225,225,225);
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,225); font-size: .6em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+button {
+  background: rgba(20,20,20,.75); 
+  border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,225); font-size: 3em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+button:hover {
+  background: rgba(20,20,20,.9); 
+  border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,0); font-size: 3em;
+  box-shadow:  1px 5px 10px #000000;
+}
+
+button:active {
+  background: rgba(20,20,20,.9); 
+    border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,0); font-size: 3em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+.code1 {
+  background: rgba(20,20,20,.9); 
+  border-style: none; 
+  font-family: 'Roboto Mono', monospace;
+  color: rgb(225,225,225); font-size: .6em;
+  box-shadow:  1px 5px 10px #888888;
+}
+
+.size {
+  max-width: 500px;
+  height:auto
+}
+.a { 
+  background: rgb(50,0,50);   
+  font-family: 'Open Sans', sans-serif; 
+  color: rgb(250,100,100); 
+  font-size: 1.5em;}
+
+.a:hover { 
+  background: rgb(70,20,70); 
+  font-family: 'Open Sans', sans-serif; 
+  color: rgb(250,100,100); 
+  font-size: 1.5em;
+  font-variant-caps: all-small-caps;
+}
+
+.b {  
+  background: rgb(90,0,50); 
+  font-family: 'Roboto Condensed', sans-serif; 
+  color: rgb(250,75,75); 
+  font-size: 2em;}
+.b:hover {  
+  background: rgb(110,20,70); 
+  font-family: 'Roboto Condensed', sans-serif; 
+  color: rgb(250,75,75); 
+  font-size: 2em;
+  font-variant-caps: all-small-caps;
+}
+
+.c {  
+  background: rgb(120,0,50); 
+  font-family: 'Merriweather', serif; 
+  color: rgb(250,50,50); 
+  font-size: 3em;}
+.c:hover {  
+  background: rgb(120,0,50); 
+  font-family: 'Merriweather', serif; 
+  color: rgb(255,120,120); 
+  font-size: 3em;
+  font-variant-caps: all-small-caps;
+}
+
+.d { 
+  background: rgb(200,0,50);
+  font-family: 'Roboto Slab', serif; 
+  color: rgb(250,45,25); 
+  font-size: 2em;}
+.d:hover { 
+  background: rgb(180,0,30);
+  font-family: 'Roboto Slab', serif; 
+  color: rgb(250,25,25); 
+  font-size: 2em;
+  font-variant-caps: all-small-caps;
+}
+
+.e {  
+  background: rgb(255,0,50);
+   font-family: 'Raleway', sans-serif; 
+  color: rgb(100,0,0); 
+  font-size: 3em;}
+.e:hover {  
+  background: rgb(255,0,50);
+   font-family: 'Raleway', sans-serif; 
+  color: rgb(120,0,50); 
+  font-size: 3em;
+  font-variant-caps: all-small-caps;
+  }    
+   
+
+
+
+    
+>>>>>>> b53a7b5fd0402c64b047fa339b2d0147c68685c8

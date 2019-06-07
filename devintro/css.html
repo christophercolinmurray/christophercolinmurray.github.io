@@ -1,0 +1,179 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+  	<meta name="Author" content="Christopher Murray">
+  	<meta name="keywords" content="JavaScript,html,css,js,programming,web development, web dev, software dev">
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        	<link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Raleway|Roboto|Roboto+Condensed|Roboto+Slab|Roboto+Mono" rel="stylesheet">
+        	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	           <title>Web Development: Front End Basics</title>
+	</head>
+
+<body>
+
+<h1>Web Development:<br>Front End Basics</h1>
+
+	<img alt="Girl demonstrating responsive design at computer" class="graphic" src="img/girlcomputer.jpg">
+<!-- CSS  SECTION-->
+
+<h3>CSS</h3>
+<p>
+Cascading Style Sheets (CSS), as the name suggests, are used to add style to a web page. If HTML represents the structure of a home, then CSS is like the paint and decor the owner uses to create a mood or provide functionality. CSS can be used to create a lot of interesting effects. It allows designers to express more creativity and make web browsing more enjoyable. CSS also allows for responsive design techniques that bridge the gap between the mobile and desktop experience. Things like web fonts have also helped to make the internet more consistent across different devices.</p> 
+
+<p>In fact, all the fonts on this website will be displayed as Google Web Fonts where available. These fonts are supported by all modern web browsers and created by importing a stylesheet. That means it's no longer necessary to have a specific font installed on your OS to see it rendered. Below you will see some web fonts displayed with fun color effects. This is best viewed on a desktop. The functionality is limited from a smart phone because it uses the hover command to change colors when your cursor moves over the element.
+</p>
+
+<div class="code1">
+<div class="a">Open Sans</div>
+<div class="b">Roboto Condensed</div>
+<div class="c">Merriweather</div>
+<div class="d">Roboto Slab</div>
+<div class="e">Raleway</div>
+</div>
+
+<br><br>
+<!-- MODAL -->
+
+
+<div class="container">
+  <h2>Modal Options</h2>
+  <p>The backdrop option specifies whether the modal should have a dark overlay (the background color of the current page) or not.</p>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-md" id="myBtn">Modal with Overlay (backdrop:true)</button>
+  <button type="button" class="btn btn-info btn-md" id="myBtn2">Modal without Overlay (backdrop:false)</button>
+  <button type="button" class="btn btn-info btn-md" id="myBtn3">Modal with backdrop:"static"</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal with Dark Overlay</h4>
+        </div>
+        <div class="modal-body">
+          <p>This modal has a dark overlay.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal({backdrop: true});
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MODAL -->
+
+
+
+
+
+
+
+<div class="code">
+HTML SOURCE:
+<br>
+<br>&lt;div class="a"&gt;Open Sans&lt;/div&gt;
+<br>&lt;div class="b"&gt;Roboto Condensed&lt;/div&gt;
+<br>&lt;div class="c"&gt;Merriweather&lt;/div&gt;
+<br>&lt;div class="d"&gt;Roboto Slab&lt;/div&gt;
+<br>&lt;div class="e"&gt;Raleway&lt;/div&gt;
+<br><br><br>
+CSS SOURCE:<br>
+.a { <br>
+  background: rgb(50,0,50);   <br>
+  font-family: 'Open Sans', sans-serif; <br>
+  color: rgb(250,100,100); <br>
+  font-size: 1.5em;}<br>
+<br>
+.a:hover { <br>
+  background: rgb(70,20,70); <br>
+  font-family: 'Open Sans', sans-serif; <br>
+  color: rgb(250,100,100); <br>
+  font-size: 1.5em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+<br>
+.b {  <br>
+  background: rgb(90,0,50); <br>
+  font-family: 'Roboto Condensed', sans-serif; <br>
+  color: rgb(250,75,75); <br>
+  font-size: 2em;}<br><br>
+.b:hover {  <br>
+  background: rgb(110,20,70); <br>
+  font-family: 'Roboto Condensed', sans-serif; <br>
+  color: rgb(250,75,75); <br>
+  font-size: 2em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+
+<br>.c {  <br>
+  background: rgb(120,0,50); <br>
+  font-family: 'Merriweather', serif; <br>
+  color: rgb(250,50,50); <br>
+  font-size: 3em;}<br><br>
+.c:hover {  <br>
+  background: rgb(120,0,50); <br>
+  font-family: 'Merriweather', serif; <br>
+  color: rgb(255,120,120); <br>
+  font-size: 3em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+
+<br>.d { <br>
+  background: rgb(200,0,50);<br>
+  font-family: 'Roboto Slab', serif; <br>
+  color: rgb(250,45,25); <br>
+  font-size: 2em;}<br><br>
+.d:hover { <br>
+  background: rgb(180,0,30);<br>
+  font-family: 'Roboto Slab', serif; <br>
+  color: rgb(250,25,25); <br>
+  font-size: 2em;<br>
+  font-variant-caps: all-small-caps;<br>
+}<br>
+
+<br>.e {  <br>
+  background: rgb(255,0,50);<br>
+   font-family: 'Raleway', sans-serif; <br>
+  color: rgb(100,0,0); <br>
+  font-size: 3em;}<br><br>
+.e:hover {  <br>
+  background: rgb(255,0,50);<br>
+   font-family: 'Raleway', sans-serif; <br>
+  color: rgb(120,0,50); <br>
+  font-size: 3em;<br>
+  font-variant-caps: all-small-caps;<br>
+  }    <br>
+<br>
+		</div>
+		<p>Each segment is similar. I've given each a name, a background color, and text color. Style effects are used to import the web fonts and set their size. The font changes to Small Caps when hovered over as well.</p>
+
+</body>
+</html>
