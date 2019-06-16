@@ -52,7 +52,7 @@ h3 {
   	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
   	animation-name: text-animate;
     	animation-delay: 10s;
-  	animation-duration: 10s;
+  	animation-duration: 1000s;
   	animation-iteration-count: 1;
  
 }
@@ -60,24 +60,25 @@ h3 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes text-animate {
   from   {color: #444;}
-	to 	 {color: #41a4c2;}
+  to     {color: #41a4c2;}
 }
 
 /* Standard syntax */
 @keyframes text-animate {
   from   {color: #444;}
-	to 	 {color: #41a4c2;}
+  to     {color: #41a4c2;}
 }
 
 @-webkit-keyframes fade {
-  from   {opacity:.1}
-	to 	 {opacity:1;}
+  from   {opacity:0.1}
+to 	 {opacity:1.0;}
 }
 
 /* Standard syntax */
 @keyframes fade {
   10%   {opacity:.1}
   30%   {opacity:.5}
+  50%   {opacity:.7}	
  100%	{opacity:1;}
 }
 </style>
