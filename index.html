@@ -1,105 +1,147 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style> 
-body {background-color:#ffffff;}
-div {background-color:#ffffff;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-    margin: auto;
-    width:100%;
-	-webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
-  	-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-  	animation-name: fade;
-   	animation-delay: 0s;
-  	animation-duration: 30s;
-  	animation-iteration-count: infinite;
-  	opacity:0.0;
-  }
+	<style>
+		body {
+			background-color: #ffffff;
+		}
+
+		div {
+			background-color: #ffffff;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			margin: auto;
+			width: 100%;
+			-webkit-animation-name: fade;
+			/* Safari 4.0 - 8.0 */
+			-webkit-animation-duration: 5s;
+			/* Safari 4.0 - 8.0 */
+			animation-name: fade;
+			animation-delay: 0s;
+			animation-duration: 30s;
+			animation-iteration-count: infinite;
+			opacity: 0.0;
+		}
 
 
 
-h1 {
-	 color:#999;
-	 font-family: 'IBM Plex Mono', Monaco, monospace;
-	 font-size: 10vw;
-    	 text-align:left;
-     	 line-height:.65;
-	 top-padding:0;
-     }
-     
-h2 { 
+		h1 {
+			color: #999;
+			font-family: 'IBM Plex Mono', Monaco, monospace;
+			font-size: 10vw;
+			text-align: left;
+			line-height: .65;
+			padding: 0;
+		}
 
-	color:#666;
-	font-family: 'IBM Plex Serif', Monaco, monospace;
-   	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size: 6vw;
-   	text-align:left;
-    line-height:.75;
- 
-     }     
+		h2 {
+			color: #666;
+			font-family: 'IBM Plex Serif', Monaco, monospace;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-size: 6vw;
+			text-align: left;
+			line-height: .75;
 
-h3 {
-	font-family: 'IBM Plex Serif', Times, serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-size: 10vw;
-   	letter-spacing: 1.4px;
-  	line-height: .75;
-	text-align:center;
-  	color: #fff;
- 	-webkit-animation-name: text-animate; /* Safari 4.0 - 8.0 */
-  	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
-  	animation-name: text-animate;
-    animation-delay: 5s;
-  	animation-duration: 5s;
-  	animation-iteration-count: infinite;
- }
+		}
+
+		h3 {
+			font-family: 'IBM Plex Serif', Times, serif;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+			font-size: 10vw;
+			letter-spacing: 1.4px;
+			line-height: .75;
+			text-align: center;
+			color: #fff;
+			-webkit-animation-name: text-animate;
+			/* Safari 4.0 - 8.0 */
+			-webkit-animation-duration: 1s;
+			/* Safari 4.0 - 8.0 */
+			animation-name: text-animate;
+			animation-delay: 5s;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+		}
 
 
-@-webkit-keyframes fade {
-  10%   {opacity:.1}
-  30%   {opacity:.5}
-  50%   {opacity:.7}	
- 100%	{opacity:1;}
-}
+		@-webkit-keyframes fade {
+			10% {
+				opacity: .1
+			}
 
-/* Standard syntax */
-@keyframes fade {
-  10%   {opacity:.1}
-  30%   {opacity:.5}
-  50%   {opacity:.7}	
- 100%	{opacity:1;}
-}
+			30% {
+				opacity: .5
+			}
 
-}
+			50% {
+				opacity: .7
+			}
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes text-animate {
-  from   {color: #fff;}
-  to     {color: #41a4c2;}
-}
+			100% {
+				opacity: 1;
+			}
+		}
 
-/* Standard syntax */
-@keyframes text-animate {
-  from   {color: #fff;}
-  to     {color: #41a4c2;}
-}
-</style>
-<style>
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Serif&display=swap');
-</style> 
+		/* Standard syntax */
+		@keyframes fade {
+			10% {
+				opacity: .1
+			}
+
+			30% {
+				opacity: .5
+			}
+
+			50% {
+				opacity: .7
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+
+
+		/* Safari 4.0 - 8.0 */
+		@-webkit-keyframes text-animate {
+			from {
+				color: #fff;
+			}
+
+			to {
+				color: #41a4c2;
+			}
+		}
+
+		/* Standard syntax */
+		@keyframes text-animate {
+			from {
+				color: #fff;
+			}
+
+			to {
+				color: #41a4c2;
+			}
+		}
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Serif&display=swap');
+	</style>
 </head>
+
 <body>
 
-<div class="fade">
-<h1>christopher murray</h1>
-<h2>digital projects</h2>
+	<div class="fade">
+		<h1>christopher murray</h1>
+		<h2>digital projects</h2>
 
-<h3>coming soon</h3>
-</div>
+		<h3>coming soon</h3>
+	</div>
 
 
 </body>
+
 </html>
