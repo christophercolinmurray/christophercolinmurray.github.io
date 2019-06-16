@@ -1,7 +1,100 @@
-<doctype! html>
-
+<!DOCTYPE html>
 <html>
-    <head><title>Christopher Murray</title></head>
-        <h1>Christopher Murray</h1>
-<p>Christopher is an aspiring developer based in the Orlando area.</p>
+<head>
+<style> 
+body {background-color:#444;}
+div {background-color:#444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+     margin: auto;
+     width:100%;
+    -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 60s; /* Safari 4.0 - 8.0 */
+  	animation-name: fade;
+    animation-delay: 0s;
+  	animation-duration: 60s;
+  	animation-iteration-count: infinite;
+    opacity:0.0;
+  }
+
+
+
+h1 {
+	 color:#999;
+	 font-family: 'IBM Plex Mono', Monaco, monospace;
+	 font-size: 10vw;
+     text-align:left;
+     line-height:.65;
+     }
+     
+h2 { 
+
+	color:#666;
+	font-family: 'IBM Plex Serif', Monaco, monospace;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 6vw;
+    text-align:left;
+    line-height:.75;
+ 
+     }     
+
+h3 {
+	font-family: 'IBM Plex Serif', Times, serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 10vw;
+    letter-spacing: 1.4px;
+    line-height: .75;
+	text-align:center;
+  	color: #444;
+ 	-webkit-animation-name: text-animate; /* Safari 4.0 - 8.0 */
+  	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  	animation-name: text-animate;
+    animation-delay: 0s;
+  	animation-duration: 10s;
+  	animation-iteration-count: 1;
+    
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes text-animate {
+  from   {color: #444;}
+	to 	 {color: #41a4c2;}
+}
+
+/* Standard syntax */
+@keyframes text-animate {
+  from   {color: #444;}
+	to 	 {color: #41a4c2;}
+}
+
+@-webkit-keyframes fade {
+  from   {opacity:.1}
+	to 	 {opacity:1;}
+}
+
+/* Standard syntax */
+@keyframes fade {
+  10%   {opacity:.1}
+  30%   {opacity:.5}
+ 100%	{opacity:1;}
+}
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Serif&display=swap');
+</style> 
+</head>
+<body>
+
+<div class="fade">
+<h1>christopher murray</h1>
+<h2>digital projects</h2>
+
+<h3>coming soon</h3>
+</div>
+
+
+</body>
 </html>
