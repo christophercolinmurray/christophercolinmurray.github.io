@@ -1,9 +1,9 @@
 body {
-  background-color: #fff;
+  background-color: #444;
 }
 
 div {
-  background-color: #fff;
+  background-color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
@@ -21,23 +21,24 @@ div {
 .rotated {
   transform: rotate(-15deg);
 }
+
 h1 {
-  color: #999;
+  color: #975555;
   font-family: "IBM Plex Mono", Monaco, monospace;
   font-size: 5em;
   text-align: left;
-  line-height: 0.65;
+  line-height: 0.55;
   padding: 0;
 }
 
 h2 {
-  color: #666;
+  color: #616c60;
   font-family: "IBM Plex Serif", Monaco, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 3em;
   text-align: left;
-  line-height: 0.75;
+  line-height: 0.55;
 }
 
 h3 {
@@ -46,9 +47,9 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
   font-size: 3em;
   letter-spacing: 1.4px;
-  line-height: 0.75;
+  line-height: 0.55;
   text-align: left;
-  color: #fff;
+  color: #444;
   -webkit-animation-name: text-animate;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 1s;
@@ -91,20 +92,21 @@ h3 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes text-animate {
   from {
-    color: #fff;
+    color: #444;
   }
   to {
-    color: #41a4c2;
+    color: #a1b436;
   }
 }
 /* Standard syntax */
 @keyframes text-animate {
   from {
-    color: #fff;
+    color: #444;
   }
   to {
-    color: #41a4c2;
+    color: #a1b436;
   }
 }
-
 /*# sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index_dark.css.map */

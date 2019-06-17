@@ -1,0 +1,117 @@
+
+$global-background: #444;
+$global-primary: rgb(151, 85, 85);
+$global-accent: #616c60;
+$global-accent-strong:#a1b436; 
+
+body {
+    background-color: $global-background;
+  }
+  
+  div {
+    background-color: $global-background;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: auto;
+    -webkit-animation-name: fade;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: fade;
+    animation-delay: 0s;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+  }
+  
+  .rotated {
+    transform: rotate(-15deg);
+  }
+  h1 {
+    color: $global-primary;
+    font-family: "IBM Plex Mono", Monaco, monospace;
+    font-size: 5em;
+    text-align: left;
+    line-height: 0.55;
+    padding: 0;
+  }
+  
+  h2 {
+    color: $global-accent;
+    font-family: "IBM Plex Serif", Monaco, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 3em;
+    text-align: left;
+    line-height: 0.55;
+  }
+  
+  h3 {
+    font-family: "IBM Plex Serif", Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 3em;
+    letter-spacing: 1.4px;
+    line-height: 0.55;
+    text-align: left;
+    color: $global-background;
+    -webkit-animation-name: text-animate;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: text-animate;
+    animation-delay: 5s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes fade {
+    10% {
+      opacity: 0.1;
+    }
+    30% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* Standard syntax */
+  @keyframes fade {
+    10% {
+      opacity: 0.1;
+    }
+    30% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.7;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes text-animate {
+    from {
+      color: $global-background;
+    }
+    to {
+      color: $global-accent-strong;
+    }
+  }
+  /* Standard syntax */
+  @keyframes text-animate {
+    from {
+      color: $global-background;
+    }
+    to {
+      color: $global-accent-strong;
+    }
+  }
+  
+  /*# sourceMappingURL=index.css.map */
+  
