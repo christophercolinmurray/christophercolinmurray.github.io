@@ -1,11 +1,12 @@
 
-$global-background: #444;
+$global-background: #685757;
 $global-primary: rgb(151, 85, 85);
 $global-accent: #616c60;
 $global-accent-strong:#a1b436; 
 
 body {
     background-color: $global-background;
+    padding: 10;
   }
   
   div {
@@ -13,6 +14,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     margin: auto;
+    width: 100%;
     -webkit-animation-name: fade;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 5s;
