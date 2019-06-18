@@ -1,6 +1,6 @@
 body {
   background-color: #c1d7d9;
-  padding: 10; }
+  padding: 10%; }
 
 div {
   background-color: #c1d7d9;
@@ -19,11 +19,11 @@ div {
   opacity: 0; }
 
 .rotated {
-  transform: rotate(-15deg); }
+  transform: rotate(-5deg); }
 
 h1 {
   color: #b48f8f;
-  font-family: "IBM Plex Mono", Monaco, monospace;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
   font-size: 5em;
   text-align: left;
   line-height: 0.55;

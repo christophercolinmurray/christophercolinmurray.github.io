@@ -3,10 +3,11 @@ $global-background: #c1d7d9;
 $global-primary: rgb(180, 143, 143);
 $global-accent: #cf699c;
 $global-accent-strong:#a1b436; 
+$global-font-serif:"IBM Plex Sans", Arial, sans-serif;
 
 body {
     background-color: $global-background;
-    padding: 10;
+    padding: 10%;
   }
   
   div {
@@ -27,11 +28,11 @@ body {
   }
   
   .rotated {
-    transform: rotate(-15deg);
+    transform: rotate(-5deg);
   }
   h1 {
     color: $global-primary;
-    font-family: "IBM Plex Mono", Monaco, monospace;
+    font-family: $global-font-serif;
     font-size: 5em;
     text-align: left;
     line-height: 0.55;

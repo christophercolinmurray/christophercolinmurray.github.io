@@ -6,9 +6,10 @@ $global-accent-strong:#41a4c2;
 
 body {
     background-color: $global-background;
+    padding: 10%;
   }
   
-  div {
+  .fade {
     background-color: $global-background;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -19,61 +20,45 @@ body {
     /* Safari 4.0 - 8.0 */
     animation-name: fade;
     animation-delay: 0s;
-    animation-duration: 30s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
-    opacity: 0;
+    opacity: .25;
   }
   
-  .rotated {
-    transform: rotate(-15deg);
-  }
   h1 {
     color: $global-primary;
-    font-family: "IBM Plex Mono", Monaco, monospace;
-    font-size: 5em;
-    text-align: left;
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 3vw;
+    text-align: right;
     line-height: 0.65;
     padding: 0;
   }
   
   h2 {
     color: $global-accent;
-    font-family: "IBM Plex Serif", Monaco, monospace;
+    font-family:"IBM Plex Sans", Arial, Sans-Serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 3em;
-    text-align: left;
+    font-size: 3vw;
+    text-align: right;
     line-height: 0.75;
   }
   
   h3 {
-    font-family: "IBM Plex Serif", Times, serif;
+    font-family:  "IBM Plex Sans", Arial, Sans-Serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 3em;
-    letter-spacing: 1.4px;
-    line-height: 0.75;
-    text-align: left;
-    color: $global-background;
-    -webkit-animation-name: text-animate;
-    /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s;
-    /* Safari 4.0 - 8.0 */
-    animation-name: text-animate;
-    animation-delay: 5s;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
+    font-size: 3vw;
+    text-align: right;
+    color: $global-accent-strong;
   }
   
   @-webkit-keyframes fade {
-    10% {
-      opacity: 0.1;
-    }
-    30% {
+    0% {
       opacity: 0.5;
     }
     50% {
-      opacity: 0.7;
+      opacity: 0.75;
     }
     100% {
       opacity: 1;
@@ -81,37 +66,20 @@ body {
   }
   /* Standard syntax */
   @keyframes fade {
-    10% {
-      opacity: 0.1;
-    }
-    30% {
+    0% {
+      transform: rotate(0deg); 
       opacity: 0.5;
     }
     50% {
-      opacity: 0.7;
+      transform: rotate(0deg);
+      opacity: 0.75;
     }
     100% {
+      transform: rotate(7deg);
       opacity: 1;
     }
   }
-  /* Safari 4.0 - 8.0 */
-  @-webkit-keyframes text-animate {
-    from {
-      color: $global-background;
-    }
-    to {
-      color: $global-accent-strong;
-    }
-  }
-  /* Standard syntax */
-  @keyframes text-animate {
-    from {
-      color: $global-background;
-    }
-    to {
-      color: $global-accent-strong;
-    }
-  }
+
   
   /*# sourceMappingURL=index.css.map */
   
