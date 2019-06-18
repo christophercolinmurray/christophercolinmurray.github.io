@@ -1,9 +1,9 @@
 body {
-  background-color: #685757;
+  background-color: #c1d7d9;
   padding: 10; }
 
 div {
-  background-color: #685757;
+  background-color: #c1d7d9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
@@ -22,7 +22,7 @@ div {
   transform: rotate(-15deg); }
 
 h1 {
-  color: #975555;
+  color: #b48f8f;
   font-family: "IBM Plex Mono", Monaco, monospace;
   font-size: 5em;
   text-align: left;
@@ -30,7 +30,7 @@ h1 {
   padding: 0; }
 
 h2 {
-  color: #616c60;
+  color: #cf699c;
   font-family: "IBM Plex Serif", Monaco, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -46,7 +46,7 @@ h3 {
   letter-spacing: 1.4px;
   line-height: 0.55;
   text-align: left;
-  color: #685757;
+  color: #c1d7d9;
   -webkit-animation-name: text-animate;
   /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 1s;
@@ -78,13 +78,13 @@ h3 {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes text-animate {
   from {
-    color: #685757; }
+    color: #c1d7d9; }
   to {
     color: #a1b436; } }
 /* Standard syntax */
 @keyframes text-animate {
   from {
-    color: #685757; }
+    color: #c1d7d9; }
   to {
     color: #a1b436; } }
 /*# sourceMappingURL=index.css.map */
