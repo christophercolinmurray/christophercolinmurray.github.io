@@ -1,5 +1,5 @@
 
-$global-background: #0a0e14;
+$global-background: #0a0714;
 $global-primary: #41a4c2;
 $global-accent: #fff;
 $global-accent-strong: #ccc;
@@ -37,3 +37,21 @@ body {
     
   }
 
+div {
+    font-family:  "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 1em;
+    font-weight:200;
+    color: $global-accent-strong;
+    text-align: left;
+    
+  }
+
+  .image {
+    opacity: .25;
+    
+  }
+
+  .image:hover {
+    opacity: 1;
+    
+  }
