@@ -1,0 +1,134 @@
+body {
+    background-color: #0a0714;
+}
+
+h1 {
+    color: #41a4c2;
+    font-family: "IBM Plex Sans Medium", Arial, Sans-Serif;
+    font-size: 5em;
+    font-weight: 500;
+    text-align: left;
+    line-height: 50%;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 3em;
+    font-weight: 200;
+    text-align: left;
+    line-height: 50%;
+}
+
+h3 {
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 3em;
+    font-weight: 200;
+    color: #cccccc;
+    text-align: left;
+}
+
+a {
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #cccccc;
+    text-align: left;
+}
+
+p {
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: #cccccc;
+    text-align: left;
+}
+
+.image {
+    height: 10em;
+    width: 15em;
+    opacity: 0.5;
+}
+
+.image:hover {
+    height: 10em;
+    width: 15em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
+
+.red {
+    background-color: #BE5B3D;
+    height: 6em;
+    width: 9em;
+    opacity: 0.5;
+    border: none;
+    color:#ffffff;
+}
+
+.red:hover {
+    background-color: #BE5B3D;
+    height: 6em;
+    width: 9em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    border: none;
+    color:#ffffff;
+}
+
+.green {
+    background-color: #5BBE3D;
+    height: 6em;
+    width: 9em;
+    opacity: 0.5;
+    border: none;
+    color:#ffffff;
+}
+
+.green:hover {
+    background-color: #5BBE3D;
+    height: 6em;
+    width: 9em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    border: none; 
+    color:#ffffff;
+}
+
+.blue {
+    background-color: #41a4c2;
+    height: 6em;
+    width: 9em;
+    opacity: 0.5;
+    border: none;
+    color:#ffffff;
+}
+
+.blue:hover {
+    background-color: #41a4c2;
+    height: 6em;
+    width: 9em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    border: none;
+    color:#ffffff;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}
+
+/*# sourceMappingURL=blue.css.map */

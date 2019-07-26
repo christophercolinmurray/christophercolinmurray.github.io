@@ -1,0 +1,136 @@
+$global-background: #0a0714;
+$global-primary: #41a4c2;
+$global-accent: #ffffff;
+$global-accent-strong: #cccccc;
+$global-body-text: #cccccc;
+$blue: #41a4c2;
+$red: #BE5B3D;
+$green: #5BBE3D;
+
+
+body {
+    background-color: $global-background;
+}
+
+h1 {
+    color: $global-primary;
+    font-family: "IBM Plex Sans Medium", Arial, Sans-Serif;
+    font-size: 5em;
+    font-weight: 500;
+    text-align: left;
+    line-height: 50%;
+}
+
+h2 {
+    color: $global-accent;
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 3em;
+    font-weight: 200;
+    text-align: left;
+    line-height: 50%;
+}
+
+h3 {
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 3em;
+    font-weight: 200;
+    color: $global-accent-strong;
+    text-align: left;
+
+}
+
+a {
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: $global-accent-strong;
+    text-align: left;
+
+}
+
+
+p {
+    font-family: "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 1em;
+    font-weight: 200;
+    color: $global-body-text;
+    text-align: left;
+
+}
+
+.image {
+    height: 10em;
+    width: 15em;
+    opacity: .5;
+}
+
+.image:hover {
+    height: 10em;
+    width: 15em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
+
+
+.red {
+    background-color: $red;
+    height: 6em;
+    width: 9em;
+    opacity: .5;
+}
+
+.red:hover {
+    background-color: $red;
+    height: 6em;
+    width: 9em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
+
+.green {
+    background-color: $green;
+    height: 6em;
+    width: 9em;
+    opacity: .5;
+}
+
+.green:hover {
+    background-color: $green;
+    height: 6em;
+    width: 9em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
+
+
+.blue {
+    background-color: $blue;
+    height: 6em;
+    width: 9em;
+    opacity: .5;
+}
+
+.blue:hover {
+    background-color: $blue;
+    height: 6em;
+    width: 9em;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+}

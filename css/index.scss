@@ -1,15 +1,16 @@
 
 $global-background: #0a0714;
 $global-primary: #41a4c2;
-$global-accent: #fff;
-$global-accent-strong: #ccc;
+$global-accent: #ffffff;
+$global-accent-strong: #cccccc;
+$global-body-text: #cccccc;
+$blue: #41a4c2;
+
 
 body {
     background-color: $global-background;
   }
   
-
-  div {height:10em;}
   h1 {
     color: $global-primary;
     font-family: "IBM Plex Sans Medium", Arial, Sans-Serif;
@@ -37,7 +38,7 @@ body {
     
   }
 
-div {
+  a {
     font-family:  "IBM Plex Sans", Arial, Sans-Serif;
     font-size: 1em;
     font-weight:200;
@@ -46,12 +47,56 @@ div {
     
   }
 
-  .image {
-    opacity: .25;
+
+  p {
+    font-family:  "IBM Plex Sans", Arial, Sans-Serif;
+    font-size: 1em;
+    font-weight:200;
+    color: $global-body-text;
+    text-align: left;
     
   }
 
-  .image:hover {
-    opacity: 1;
-    
+  .image
+  {
+    height:12em;
+    width:18em;
+    opacity:.5;
   }
+  
+  .image:hover
+  {
+    height:12em;
+    width:18em;
+    opacity:1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+  }
+
+
+  .color1
+  {
+    background-color: $blue;
+    height:12em;
+    width:18em;
+    opacity:.5;
+  }
+  
+  .color1:hover
+  {
+    background-color: $blue;
+    height:12em;
+    width:18em;
+    opacity:1;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+  }
+
+  li {display: inline-block;
+      text-align: center;}
+
+ 

@@ -2,10 +2,6 @@ body {
   background-color: #0a0714;
 }
 
-div {
-  height: 10em;
-}
-
 h1 {
   color: #41a4c2;
   font-family: "IBM Plex Sans Medium", Arial, Sans-Serif;
@@ -16,7 +12,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: #ffffff;
   font-family: "IBM Plex Sans", Arial, Sans-Serif;
   font-size: 3em;
   font-weight: 200;
@@ -28,24 +24,63 @@ h3 {
   font-family: "IBM Plex Sans", Arial, Sans-Serif;
   font-size: 3em;
   font-weight: 200;
-  color: #ccc;
+  color: #cccccc;
   text-align: left;
 }
 
-div {
+a {
   font-family: "IBM Plex Sans", Arial, Sans-Serif;
   font-size: 1em;
   font-weight: 200;
-  color: #ccc;
+  color: #cccccc;
+  text-align: left;
+}
+
+p {
+  font-family: "IBM Plex Sans", Arial, Sans-Serif;
+  font-size: 1em;
+  font-weight: 200;
+  color: #cccccc;
   text-align: left;
 }
 
 .image {
-  opacity: 0.25;
+  height: 12em;
+  width: 18em;
+  opacity: 0.5;
 }
 
 .image:hover {
+  height: 12em;
+  width: 18em;
   opacity: 1;
+  transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -webkit-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+}
+
+.color1 {
+  background-color: #41a4c2;
+  height: 12em;
+  width: 18em;
+  opacity: 0.5;
+}
+
+.color1:hover {
+  background-color: #41a4c2;
+  height: 12em;
+  width: 18em;
+  opacity: 1;
+  transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -webkit-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */
