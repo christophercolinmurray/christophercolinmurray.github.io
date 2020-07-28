@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SvgArrowDown from '../icons/ArrowDown';
 
 export default class Header extends Component {
   render() {
@@ -22,17 +23,19 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{Data.name}</h1>
-               <h2 className="">{Data.role}.{Data.roleDescription}
-</h2>
+               <p className="">{Data.role}.{Data.roleDescription}</p>
               
                <ul className="social">
                   {
                     Data.socialLinks && Data.socialLinks.map(item =>{
-                      return(
+                     
+                      return(                             
                               <li key={item.name}>
                                  <a href={item.url} rel="noopener noreferrer" target="_blank">
-                                    <img aria-label={item.name} alt={item.name} src={item.svgSrc}></img> 
-                                 </a>
+                                    <svg viewBox="0 0 33 33" fill="#fff">
+                                    <path d={item.d}/>
+                                    </svg>
+                              </a>
                               </li>
                             )
                           }
@@ -43,7 +46,7 @@ export default class Header extends Component {
          </div>
 
          <p className="scrolldown">
-            <a className="smoothscroll" href="#projects"><arrowDown></arrowDown>
+            <a className="smoothscroll" href="#projects"><SvgArrowDown></SvgArrowDown>
             </a>
          </p>
 
