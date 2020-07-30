@@ -4,6 +4,8 @@ import Portfolio from './components/Portfolio';
 import Email from './components/Contact';
 import Footer from './components/Footer';
 import Data from './Data';
+
+
 class App extends Component {
   render() {
     return (

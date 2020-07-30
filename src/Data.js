@@ -4,7 +4,7 @@ let Data = {
     "role": "Software Developer",
     "linkedinId":"https://www.linkedin.com/in/christophercmurray/",
     "twitter": "Christopher_aaS",
-    "roleDescription": " I specialize in PHP (Laravel, WordPress). I also have experience using with React, Python, and Google Cloud Platform.",
+    "roleDescription": "Software developer and content writer for Linux Handbook, a technical blog that reaches programmers around the world. I specialize in PHP, MySQL, JavaScript, and Google Cloud Platform.",
     "socialLinks":[
         {
           "name":"LinkedIn",
@@ -31,23 +31,47 @@ let Data = {
       {
         "name":"Linux Handbook",
         "description":"Content creator for a popular command line linux blog. I write scripts and teach programming and system administration concepts.",
-        "imgUrl":"images/portfolio/lhandbook-thumbnail.png",
+        "imgUrl":"images/portfolio/linux-handbook.jpg",
         "imgAlt":"Screenshot of Linux Handbook",
-        "demoUrl":"https://www.linuxhandbook.com"
+        "demoUrl":"https://www.linuxhandbook.com",
+        "sourceUrl":"https://github.com/cmurray21/Linux-Handbook"
+
       },
       {
         "name":"Marnie Sorensen",
         "description":"Comissioned work for an Interior Designer.",
-        "imgUrl":"images/portfolio/ms-thumbnail.png",
+        "imgUrl":"images/portfolio/marnie.jpg",
         "imgAlt":"Screenshot of Marnie Sorensen's Portfolio",
-        "demoUrl":"https://www.marniesorensen.com"
+        "demoUrl":"https://www.marniesorensen.com",
+        "sourceUrl":"https://github.com/cmurray21/details-llc"
+
       },
       {
         "name":"Prequels",
         "description":"Logo/asset design, HTML5/CSS3 ",  
-        "imgUrl":"images/portfolio/prequels-thumbnail.png",
+        "imgUrl":"images/portfolio/prequels.jpg",
         "imgAlt":"Screenshot of Prequels Band Official Site",
-        "demoUrl":"https://www.the-prequels.com"
+        "demoUrl":"https://www.the-prequels.com",
+        "sourceUrl":"https://github.com/cmurray21/prequels"
+
+      },
+      {
+        "name":"Vladimir Poutine",
+        "description":"Logo/asset design, HTML5/CSS3 ",  
+        "imgUrl":"images/portfolio/vp.jpg",
+        "imgAlt":"Screenshot of Vladimir Poutine Demo Site",
+        "demoUrl":"https://christopher-murray.com/vladimirpoutine/",
+        "sourceUrl":"https://github.com/cmurray21/vladimirpoutine"
+
+      },
+      {
+        "name":"Front End Basics",
+        "description":"HTML5/CSS3/JS ",  
+        "imgUrl":"images/portfolio/front-end.png",
+        "imgAlt":"Screenshot of Vladimir Poutine Demo Site",
+        "demoUrl":"https://christopher-murray.com/devintro/",
+        "sourceUrl":"https://github.com/cmurray21/cmurray21.github.io/tree/master/devintro"
+
       }
     ],
   }

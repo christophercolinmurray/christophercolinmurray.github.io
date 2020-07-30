@@ -5,29 +5,35 @@ export default class Portfolio extends Component {
     let Data = this.props.Data;
     return (
       <section id="projects">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Projects</h1>
-          <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-single cf">
+        <div className="projects">
+        <br /><br /><br />
+        <ul className="cards">
           {
-            Data.portfolio && Data.portfolio.map((item)=>{
-              return(
-                <a href={`${item.demoUrl}`}>
-                  <div className="columns portfolio-item">
-                      <img src={`${item.imgUrl}`} alt={`${item.imgAlt}`} className="img-item"/>
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                      </div>
-                      </div>
+            Data.portfolio && Data.portfolio.map((item) => {
+              return (
+
+                <li className="cards__item">
+                  <div className="card">
+                    <div className="card__image">
+                      <img className="card__image" src={item.imgUrl} alt={item.imgAlt} />
+                    </div>
+                    <div className="card__content">
+                      <div className="card__title">{item.name}</div>
+                      <p className="card__text">{item.description} </p>
+                      <a href={item.demoUrl}>
+                          <button className="proj-button">Demo</button>
                       </a>
+                      <a href={item.sourceUrl}>
+                          <button className="proj-button">Source on GitHub</button></a>
+                    </div>
+                  </div>
+                </li>
               )
             })
           }
-          </div>
+        </ul>
         </div>
-      </div>
-  </section>
-        );
+      </section>
+    );
   }
 }

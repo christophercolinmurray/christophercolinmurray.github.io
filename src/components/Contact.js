@@ -13,9 +13,8 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
         <section id="contact">
-        <div className="row">
-        <div className="twelve columns collapsed">
-       <h1>Contact</h1>
+          <br/><br/>
+       <h1 className="section-head">Contact</h1>
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/mvowvjwk"
@@ -31,8 +30,7 @@ export default class MyForm extends React.Component {
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Oops! There was an error.</p>}
       </form>
-      </div>
-      </div>
+   
       </section>
     );
   }
