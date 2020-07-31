@@ -9,13 +9,13 @@ body {
 
 
   color: #ffffff;
-  background-color:            #1f1f1f;
-  --headerbg:                  #120235;
+  background-color:            #1b1b1b;
+  --headerbg:                  #2b2b2b;
   --primary:                   #181818;
-  --secondary:                 #1843ff;
+  --secondary:                 #8957b8;
   --cardbg:                    #2b2b2b;
   --footer-icons:              #555555;
-  --button:                    #303e7a;
+  --button:                    #8957b8;
   --input:                     #2b2b2b;
   --project-name:              #cccccc;
   --project-description:       #ececec;

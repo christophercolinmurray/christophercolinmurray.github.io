@@ -38,6 +38,24 @@ let Data = {
 
       },
       {
+        "name":"Borkutron 9000",
+        "description":"Vanilla JS app that 'fetches' dog pictures.",
+        "imgUrl":"images/portfolio/borkutron-9000.png",
+        "imgAlt":"Screenshot of Borkutron 9000",
+        "demoUrl":"https://borkutron-9000.netlify.app/",
+        "sourceUrl":"https://github.com/cmurray21/borkutron-9000"
+
+      },
+      {
+        "name":"Angular Crash Course",
+        "description":"Introduction to Angular.js concepts",
+        "imgUrl":"images/portfolio/angular-crash-course.png",
+        "imgAlt":"Screenshot of Angular Crash Course",
+        "demoUrl":"https://angular8-crash-course.netlify.app/",
+        "sourceUrl":"https://github.com/cmurray21/angular-crash-course"
+
+      },
+      {
         "name":"Marnie Sorensen",
         "description":"Comissioned work for an Interior Designer.",
         "imgUrl":"images/portfolio/marnie.jpg",
