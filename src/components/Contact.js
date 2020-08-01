@@ -14,7 +14,6 @@ export default class MyForm extends React.Component {
     return (
         <section id="contact">
           <br/><br/>
-       <h1 className="section-head">Contact</h1>
       <form
         onSubmit={this.submitForm}
         action="https://formspree.io/mvowvjwk"

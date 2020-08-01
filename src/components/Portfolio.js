@@ -20,10 +20,10 @@ export default class Portfolio extends Component {
                     <div className="card__content">
                       <div className="card__title">{item.name}</div>
                       <p className="card__text">{item.description} </p>
-                      <a href={item.demoUrl}>
+                      <a href={item.demoUrl} rel="noopener noreferrer" target="_blank">
                           <button className="proj-button">Demo</button>
                       </a>
-                      <a href={item.sourceUrl}>
+                      <a href={item.sourceUrl} rel="noopener noreferrer" target="_blank">
                           <button className="proj-button">Source on GitHub</button></a>
                     </div>
                   </div>
