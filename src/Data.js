@@ -4,7 +4,7 @@ let Data = {
   "role": "Software Developer",
   "linkedinId":"https://www.linkedin.com/in/christophercmurray/",
   "twitter": "Christopher_aaS",
-  "roleDescription": "Software developer and content creator for a popular tech blog Linux Handbook. I specialize in front-end development and user interfaces, but I also have experience with backend programming, database design, and the software development life cycle broadly.",
+  "roleDescription": "Software developer and content creator for the popular tech blog Linux Handbook. I am a full-stack developer experienced in building complete digital solutions for clients.",
   "socialLinks":[
       {
         "name":"LinkedIn",
