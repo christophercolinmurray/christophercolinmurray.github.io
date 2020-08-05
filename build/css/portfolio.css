@@ -9,6 +9,7 @@ a {
    text-decoration-thickness: .25em;
    text-decoration-color: var(--secondary);
  }
+
  
  svg {
    height: 3rem;
@@ -67,7 +68,7 @@ a {
     height: 800px;
     min-height: 500px;
     width: 100%;
-    background: var(--headerbg) url(../images/header.webp)  no-repeat top center;
+    background: var(--headerbg) no-repeat top center;
     background-size: cover !important;
      -webkit-background-size: cover !important;
     text-align: center;
@@ -221,10 +222,6 @@ a {
  }
  
  
- button .proj-button {
-   width: 280px;
- }
- 
  .button,
  .button:visited,
  button,
@@ -233,7 +230,8 @@ a {
  input[type="button"] {
    font-size: 1rem;
    background: var(--button);
-   opacity: 80%;
+   width: 100%;
+   opacity: 100%;
    display: inline-block;
   text-decoration: none;
    letter-spacing: 0;
@@ -261,7 +259,7 @@ a {
  input[type="submit"]:hover,
  input[type="reset"]:hover,
  input[type="button"]:hover {
-   opacity:100%;
+   opacity:80%;
    color: white;
  }
  
@@ -694,16 +692,15 @@ a {
 
  
 .cards {
-  display: inline-flex;
+  display: inline-block;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
   height: 100%;
 }
 
 .cards__item {
-  display: flex;
+  display: inline-flex;
   padding: 1rem;
 }
 
@@ -714,6 +711,8 @@ a {
   flex-direction: column;
   overflow: hidden;
   max-width: 280px;
+  height: 450px;
+
 }
 
 .card__content {
@@ -738,7 +737,7 @@ a {
 .card__title {
   color: var(--project-name);
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 0;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -755,7 +754,6 @@ max-width: 250px;
 @media only screen and (min-width: 895px) {
 .projects {
  text-align: center;
- padding-inline-start: 5%;
 }
 }
 
